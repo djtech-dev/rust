@@ -8,6 +8,7 @@ test = false
 doctest = false
 
 [dependencies]
+inkwell = { path = "../../library/inkwell", features = ["llvm13-0"] } 
 bitflags = "1.0"
 cstr = "0.2"
 libc = "0.2"
